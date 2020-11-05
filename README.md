@@ -4,7 +4,7 @@
 ![效果图](https://raw.githubusercontent.com/wisestcoder/assert/master/schema.gif)
 
 ### 在线地址
-[查看demo](https://wisestcoder.github.io/schema-generator)
+[查看demo](https://wisestcoder.github.io/schema-generator/_demos/playground)
 
 ### 安装
 
