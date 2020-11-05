@@ -1,0 +1,43 @@
+{
+  "#/obj1": {
+    "parent": "#",
+    "schema": { "title": "对象", "type": "object", "$id": "#/obj1" },
+    "children": []
+  },
+  "#/obj2/obj3/col": {
+    "parent": "#/obj2/obj3",
+    "schema": {
+      "title": "颜色选择",
+      "type": "string",
+      "format": "color",
+      "$id": "#/obj2/obj3/col"
+    },
+    "children": []
+  },
+  "#/obj2/obj3/img": {
+    "parent": "#/obj2/obj3",
+    "schema": {
+      "title": "图片展示",
+      "type": "string",
+      "format": "image",
+      "x-component-props": {},
+      "$id": "#/obj2/obj3/img"
+    },
+    "children": []
+  },
+  "#/obj2/obj3": {
+    "parent": "#/obj2",
+    "schema": { "title": "对象", "type": "object", "$id": "#/obj2/obj3" },
+    "children": ["#/obj2/obj3/col", "#/obj2/obj3/img"]
+  },
+  "#/obj2": {
+    "parent": "#",
+    "schema": { "title": "对象", "type": "object", "$id": "#/obj2" },
+    "children": ["#/obj2/obj3"]
+  },
+  "#": {
+    "schema": { "type": "object", "$id": "#" },
+    "children": ["#/obj1", "#/obj2"],
+    "data": {}
+  }
+}

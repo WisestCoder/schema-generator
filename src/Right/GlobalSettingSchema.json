@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "properties": {
+    "column": {
+      "title": "整体布局",
+      "type": "string",
+      "enum": [
+        {
+          "label": "一行一列",
+          "value": 1
+        },
+        {
+          "label": "一行二列",
+          "value": 2
+        },
+        {
+          "label": "一行三列",
+          "value": 3
+        }
+      ],
+      "x-component-props": {
+        "placeholder": "默认一行一列"
+      }
+    },
+    "displayType": {
+      "title": "标签展示模式",
+      "type": "string",
+      "enum": [
+        {
+          "label": "同行",
+          "value": "row"
+        },
+        {
+          "label": "单独一行",
+          "value": "column"
+        }
+      ],
+      "x-component": "radio"
+    },
+    "disabled": {
+      "title": "置灰",
+      "type": "boolean"
+    }
+  },
+  "required": []
+}

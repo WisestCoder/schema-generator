@@ -1,0 +1,35 @@
+.left-layout {
+  flex-shrink: 0;
+  padding: 16px 0 0 8px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.left-layout ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.left-item {
+  width: 7.5rem;
+  height: 2.4rem;
+  display: flex;
+  padding: 4px;
+}
+
+.left-element {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa;
+}
+
+.left-element:hover {
+  border: 1px dashed #ddd;
+  color: #409eff;
+  border: 1px dashed #409eff;
+}

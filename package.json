@@ -1,0 +1,56 @@
+{
+  "name": "@coolvision/schema-generator",
+  "version": "0.0.1-beta.1",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cool dev",
+    "docs:build": "cool build --docs",
+    "build": "cool build",
+    "deploy": "cool deploy",
+    "gh-pages": "gh-pages -d docs-dist",
+    "test": "cool test",
+    "test:coverage": "cool test --coverage"
+  },
+  "main": "src/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "antd": "^4.1.0"
+  },
+  "dependencies": {
+    "antd": "^4.4.2",
+    "antd-mobile": "^2.3.3",
+    "classnames": "^2.2.6",
+    "clone": "^2.1.2",
+    "moment": "^2.27.0",
+    "nanoid": "^2.1.11",
+    "rc-color-picker": "^1.2.6",
+    "react-dnd": "^11.1.3",
+    "react-dnd-html5-backend": "^11.1.3",
+    "react-frame-component": "^4.1.3",
+    "react-sortable-hoc": "^1.11.0",
+    "saltui": "^4.10.4",
+    "tachyons": "^4.11.1"
+  },
+  "devDependencies": {
+    "@coolvision/cool-scripts": "latest",
+    "@umijs/preset-react": "1.x",
+    "@umijs/test": "^3.0.5",
+    "gh-pages": "^3.0.0",
+    "rollup-plugin-commonjs": "^10.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WisestCoder/schema-generator"
+  },
+  "author": "WisestCoder",
+  "license": "ISC",
+  "homepage": "https://github.com/WisestCoder/schema-generator#readme",
+  "keywords": [
+    "schema-generator",
+    "form",
+    "schema"
+  ]
+}

@@ -1,0 +1,24 @@
+.mid-layout {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  /* height: 100%; */
+  overflow: hidden;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  background-color: #F2F2F7;
+}
+
+.mid-layout.preview {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: calc(100% - 3rem);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
