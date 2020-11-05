@@ -85,5 +85,3 @@ const Demo = () => {
 
 export default Demo;
 ```
-
-代码展示效果见 Demo
