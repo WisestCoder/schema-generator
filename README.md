@@ -1,5 +1,11 @@
 # 可视化 schema 编辑器
 
+### 效果图
+![效果图](https://raw.githubusercontent.com/wisestcoder/assert/master/schema.gif)
+
+### 在线地址
+[查看demo](https://wisestcoder.github.io/schema-generator)
+
 ### 安装
 
 ```bash
@@ -80,9 +86,4 @@ const Demo = () => {
 export default Demo;
 ```
 
-代码展示效果见 Demo。
-目前支持 3 个 props：`defaultValue`，`templates` 和 `submit`
-
-- **defaultValue:** 默认一进入编辑器展示的表单对应的 schema。格式参考 schema 生成器的输出 schema
-- **templates:** 常用的 schema 模板，模板方便用户点击使用。格式参照上面代码：text 按钮文案，name 对应的字段
-- **submit:** 提交按钮的 callback，入参是导出的 schema
+代码展示效果见 Demo
